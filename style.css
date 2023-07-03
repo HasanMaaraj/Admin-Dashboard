@@ -23,6 +23,7 @@ body {
     display: grid;
     align-content: start;
     padding-left: 25px;
+    padding-right: 10px;
     gap: 25px;
     grid-template-columns: 1fr;
     font-size: 24px;
@@ -42,7 +43,7 @@ body {
 }
 
 .logo>img {
-    height: 120px;
+    height: 60px;
     width: auto;
     justify-self: center;
 }
