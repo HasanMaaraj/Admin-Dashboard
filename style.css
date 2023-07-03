@@ -31,8 +31,21 @@
 
 .projects {
     grid-row: 1/3;
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 30px;
 }
 
+.projects p {
+    grid-column: 1/-1;
+}
+
+.projects div {
+    border-radius: 15px;
+    padding: 15px;
+}
 
 .main-content div {
     border: 1px solid black;
