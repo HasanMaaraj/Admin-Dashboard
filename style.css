@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     height: 100vh;
     display: grid;
@@ -18,8 +22,38 @@
     background-color: red;
     display: grid;
     align-content: start;
+    padding-left: 25px;
     gap: 25px;
     grid-template-columns: 1fr;
+    font-size: 24px;
+}
+
+.sidebar img {
+    height: 25px;
+    width: auto;
+    margin-right: 18px;
+}
+
+.logo {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    place-items: center;
+}
+
+.logo>img {
+    height: 120px;
+    width: auto;
+    justify-self: center;
+}
+
+.logo>p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.sidebar>div>div {
+    margin: 10px;
 }
 
 .main-content {
