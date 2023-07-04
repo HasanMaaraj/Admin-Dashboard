@@ -93,7 +93,7 @@ body {
 ul {
     display: grid;
     margin: 0px;
-    padding: 0px;
+    padding: 16px;
     list-style: none;
     background-color: white;
     border-radius: 10px;
