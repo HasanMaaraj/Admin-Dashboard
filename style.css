@@ -19,9 +19,10 @@ body {
 
 }
 
-.search-bar form{
+.search-bar {
     display: grid;
     grid-template-columns: 1fr 5fr;
+    align-items: center;
 }
 
 .search-bar img {
